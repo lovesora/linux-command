@@ -1,6 +1,6 @@
 #!/bin/bash
-if !command -v cpulimit > /dev/null 2>&1; then
-    if !command -v unzip > /dev/null 2>&1; then
+if ! command -v cpulimit > /dev/null 2>&1; then
+    if ! command -v unzip > /dev/null 2>&1; then
         # 下载upzip
         yum install unzip
     fi
